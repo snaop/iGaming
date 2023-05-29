@@ -1,0 +1,418 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: #2C2C2C;
+    padding: 36px 0;
+    position: sticky;
+    top: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+}
+.logo{
+    display:flex; 
+}
+.logo_title{
+    font-family: 'Nico Moji';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF; 
+    margin: auto 0;  
+}
+.logo_img{
+    width: 65px;
+    height: 48px;
+    margin-right: 10px;   
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+}
+.nav_item{
+    margin-right: 63px;
+}
+.nav_link{
+    font-family: 'Nico Moji';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+.header_container{
+    display: flex;
+    max-width: 1000px;
+    margin:0 auto;
+}
+.nav{
+    margin: auto 0 auto 150px;
+}
+.nav_link:hover{
+    color:#00C4F0;
+}
+.first{
+    background-color: #2C2C2C;
+    padding: 66px 0;
+}
+.first_content{
+    width: 453px;
+    height: 311px;
+    color: #E4E4E4;
+}
+.first_img{
+    width: 632px;
+    height: 574px;
+}
+.first_title{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0 0 50px;
+}
+.first_desc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    width: 453px;
+    margin: 0 0 50px;
+}
+.first_btn{
+    width: 224px;
+    height: 47px;
+    background: linear-gradient(87.32deg, #00C4F0 190.45%, #E4E4E4 253.62%);
+    border: 1px solid #000000;
+    box-shadow: 0px 2px 13px #00C4F0;
+    border-radius: 6px;
+    border: 0;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+.first_container{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.second{
+    background: #3E3E3E;
+    padding: 71px 0;
+}
+.second_title{
+    margin: 0;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #E4E4E4;
+    text-align: center;
+}
+.second-container{
+    display: flex;
+    margin: 97px auto 0;
+    max-width: 1263px;
+    justify-content: space-between;
+    align-items: center;
+}
+.second_content{
+    width: 356px;
+}
+.second_content_title{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E4E4E4;
+    margin: 0 0 71px;
+}
+.second_list{
+    padding: 0;
+    list-style: none;
+}
+.second_list_title{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E4E4E4;
+}
+.second_progress{
+    width: 356px;
+    height: 10px;
+    background: #00C4F0;
+}
+.second_progress2{
+    width: 287px;
+    height: 100%;
+    background: #2C2C2C;
+}
+.video{
+    background: #2C2C2C;
+    padding: 70px 0 134px;
+}
+.video_container{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+    max-width: 970px;
+    height: 600px;
+    margin: 70px auto 0;
+}
+.video_content{
+    max-width: 881px;
+    height: 511px;
+    margin: 44px 45px;
+    width: 881px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+    border-radius: 29px;
+}
+.fourth_screen{
+    background: #3E3E3E;
+}
+.fourth_title{
+    margin: auto;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #E4E4E4;
+    padding: 70px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    max-width: 850px;
+}
+.gallery_item{
+    width: 40%;
+    margin: 0 0 -30px 22px;
+}
+.photo{
+    width: 100%;
+    margin: 0 25px 39px 22px;
+}
+.footer{
+    display: flex;
+    background: #2C2C2C;
+    
+}
+.text_link{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164.06%;
+    color: #FFFFFF;
+}
+.name{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E4E4E4;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin:0 auto;
+    width: 1000px;
+}
+.icons_list{
+    width: 243.18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons_list a{
+    text-decoration: none;
+}
+.burger{
+    border: 0;
+    background: transparent;
+    display: none;
+}
+@media (max-width: 1000px) {
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .header_container{
+        max-width: 800px;
+        justify-content: space-between;
+    }
+    .first_img{
+        width: 400px;
+        height: 363.29px;
+    }
+    .first_title{
+        font-family: 'Nico Moji';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .first_desc{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        width: 100%;
+    }
+    .first_container{
+        max-width: 700px;
+    }
+    .second_title{
+        font-family: 'Nico Moji';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .second-container{
+        flex-direction: column-reverse;
+    }
+    .second_img{
+        width: 612px;
+        height: 360px;
+        margin-bottom: 75px;
+    }
+    .second_content_title{
+        text-align: center;
+    }
+    .second_list_title{
+        font-family: 'Nico Moji';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .video_container{
+        max-width: 650px;
+        height: 402.06px;
+    }
+    .video_content{
+        width: 590.36px;
+        height: 342.42px;
+    }
+    .content{
+        max-width: 700px;
+        width: 700px;
+    }
+    .gallery{
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .gallery_item{
+        margin: 0 0 10px;
+        width: 400px;
+    }
+}
+@media (max-width: 700px) {
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .header_container{
+        max-width: 400px;
+        justify-content: space-between;
+    }
+    .first_img{
+        width: 250px;
+        height: 200px;
+    }
+    .first_title{
+        font-family: 'Nico Moji';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .first_desc{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        width: 100%;
+    }
+    .first_container{
+        max-width: 400px;
+    }
+    .second_title{
+        font-family: 'Nico Moji';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .second-container{
+        flex-direction: column-reverse;
+    }
+    .second_img{
+        width: 400px;
+        height: 360px;
+        margin-bottom: 75px;
+    }
+    .second_content_title{
+        text-align: center;
+    }
+    .second_list_title{
+        font-family: 'Nico Moji';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .video_container{
+        max-width: 310px;
+        height: 191.75px;
+    }
+    .video_content{
+        width: 281.56px;
+        max-width: 281.56px;
+        height: 163.31px;
+        margin: 14px;
+    }
+    .content{
+        max-width: 400px;
+        width: 400px;
+    }
+    .gallery{
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .gallery_item{
+        margin: 0 0 10px;
+        width: 400px;
+    } 
+}
